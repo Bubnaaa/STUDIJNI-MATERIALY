@@ -1,4 +1,4 @@
-# Šifrování a útoky na dešifrování
+# Šifrování a dešifrovací útoky
 ## Klasické šifry
 ### Caesarova šifra
 * Každé písmeno textu se posune o pevný počet míst v abecedě
