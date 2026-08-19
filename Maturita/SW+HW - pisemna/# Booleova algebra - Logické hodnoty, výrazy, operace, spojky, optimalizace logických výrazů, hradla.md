@@ -1,0 +1,53 @@
+
+- Je algebraická struktura popisující operace nad množinou s právě dvěma prvky
+- Logická proměnná - může nabývat hodnoty 0 nebo 1
+
+## Logické operace a spojky
+### Základní operace
+- NOT
+	- Výstup je opačný k hodnotě vstupu
+- AND
+	- Výstup 1 je právě tehdy, když všechny vstupy jsou 1
+- OR
+	- Výstup 1 je pokud alespoň jeden vstup je 1
+### Odvozené operace
+- NAND - negovaný součin
+	- Výstup 0 je pouze tehdy, jsou-li oba vstupy 
+- NOR - Negovaný součet
+	- Výstup je  pouze tehdy, jsou-li oba vstupy 0
+- XOR 
+	-	Výstup je 1 pokud se hodnoty vstupu liší
+-	XNOR
+	-	Výstup je 1, pokud jsou oba vstupy stejné
+
+## Souhrnná pravdivostní tabulka
+
+| A   | B   | NOT | AND | OR  | NAND | NOR | XOR | XNOR |
+| --- | --- | --- | --- | --- | ---- | --- | --- | ---- |
+| 0   | 0   | 1   | 0   | 0   | 1    | 1   | 0   | 1    |
+| 0   | 1   | 1   | 0   | 1   | 1    | 0   | 1   | 0    |
+| 1   | 0   | 0   | 0   | 1   | 1    | 0   | 1   | 0    |
+| 1   | 1   | 0   | 1   | 1   | 0    | 0   | 0   | 1    |
+## Zákony Booleovy algebry
+
+| **Zákon**                    | **Pro logický součin (AND)**                | **Pro logický součet (OR)**                   |
+| ---------------------------- | ------------------------------------------- | --------------------------------------------- |
+| **Neutrální prvek**          | $A \cdot 1 = A$                             | $A + 0 = A$                                   |
+| **Agresivní prvek**          | $A \cdot 0 = 0$                             | $A + 1 = 1$                                   |
+| **Idempotence**              | $A \cdot A = A$                             | $A + A = A$                                   |
+| **Komutativita**             | $A \cdot B = B \cdot A$                     | $A + B = B + A$                               |
+| **Asociativita**             | $(A \cdot B) \cdot C = A \cdot (B \cdot C)$ | $(A + B) + C = A + (B + C)$                   |
+| **Distributivita**           | $A + (B \cdot C) = (A + B) \cdot (A + C)$   | $A \cdot (B + C) = (A \cdot B) + (A \cdot C)$ |
+| **Dvojitá negace**           | $\overline{\overline{A}} = A$               | $\overline{\overline{A}} = A$                 |
+| **Vyloučení třetího / Spor** | $A \cdot \overline{A} = 0$                  | $A + \overline{A} = 1$                        |
+| **Absorpce**                 | $A \cdot (A + B) = A$                       | $A + (A \cdot B) = A$                         |
+| **Zjednodušená absorpce**    | $A \cdot (\overline{A} + B) = A \cdot B$    | $A + (\overline{A} \cdot B) = A + B$          |
+## Logická hradla
+
+- Základní fyzická elektronická součástka, která realizuje konkrétní logickou operaci
+- AND 
+- NAND
+- OR
+- NOT
+- XOR
+- XNOR
