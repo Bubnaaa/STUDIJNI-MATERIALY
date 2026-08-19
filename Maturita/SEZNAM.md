@@ -63,7 +63,7 @@
 5. **Počítačový hardware:** číselné soustavy, komponenty (CPU, RAM, MB), periferie.
 6. **Booleova algebra:** logické operace, optimalizace výrazů, hradla.
 
-### **Písemná POS**
+### **Písemná POS** - nahrazeno certifikátem
 1. Síťové modely: vrstvy (OSI, TCP/IP), protokoly, standardy, organizace, PDU, enkapsulace a komunikace
 2. Switch: principy fungování, MAC tabulka, metody přepínání, možnosti a základní konfigurace
 3. Router: principy, statické a dynamické směrování, směrovací tabulka, možnosti, konfigurace
